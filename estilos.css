@@ -1,0 +1,120 @@
+body {
+    background: #f9f6ee; 
+    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fff;
+    background: #0a2342; 
+    padding: 20px 0;
+    margin: 0 0 10px 0;
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #0a2342;
+}
+
+
+h2, h3, h4 {
+    color: #0a2342;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.banner-azul {
+    background: #0a2342;
+    color: #fff;
+    padding: 18px 0;
+    margin: 0 0 20px 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    font-size: 1.4em;
+    text-align: center;
+    letter-spacing: 1px;
+    border-top: 2px solid #0a2342;
+    border-bottom: 2px solid #0a2342;
+}
+p {
+    color: #222;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+li {
+    color: #222;
+    font-size: 1em;
+    margin-bottom: 6px;
+    margin-left: 0;
+    text-align: center;
+    list-style-position: inside;
+}
+
+blockquote {
+    background: #eaf1fb;
+    border-left: 5px solid #0a2342;
+    margin: 20px auto;
+    padding: 15px 25px;
+    max-width: 600px;
+    font-style: italic;
+    color: #0a2342;
+    border-radius: 6px;
+}
+
+blockquote footer {
+    color: #222;
+    font-size: 0.95em;
+    margin-top: 8px;
+    font-style: normal;
+    text-align: right;
+}
+
+button#calcula {
+    background: #0a2342;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 14px 36px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin: 30px auto 0 auto;
+    display: block;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(10,35,66,0.07);
+}
+
+button#calcula:hover {
+    background: #1565c0;
+}
+
+img {
+    display: block;
+    margin: 30px auto 0 auto;
+    max-width: 300px; 
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(10,35,66,0.08);
+}
+
+.logo-izq {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    max-width: 120px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(10,35,66,0.08);
+}
+body {
+    position: relative; 
+}
